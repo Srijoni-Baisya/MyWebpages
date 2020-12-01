@@ -1,0 +1,53 @@
+body{
+    text-align: justify;
+   }
+#page{
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.83;
+    background: linear-gradient(to bottom right, rgba(229,118,254,73), rgba(100,226,250,75));
+    display: table;
+    width: 100%;
+    height: 100%;
+     padding-left:15px;
+    padding-right:15px;
+}
+h1{
+    font-size: 60px;
+    color: darkblue;
+    font-family: Algerian;
+    text-align: center;
+}
+h2{
+    font-size: 38px;
+    color: darkmagenta;
+    text-align: center;
+    font-family: Algerian;
+}
+#details1{
+    font-size: 20px;
+}
+#details2{
+    font-size: 20px;
+}
+.pic{
+    height: 250px;
+    width: 350px;
+    padding: 3px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: darkblue;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+}
+.image-section{
+    display:flex;
+    justify-content: center;
+}
+.section-style{
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: white;
+}
